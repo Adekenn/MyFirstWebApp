@@ -1,8 +1,32 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>Hello World</title>
+   <link href="MyFirstWebApp/csslayout.css" rel="stylesheet" type="text/css" />
+  <meta charset="UTF-8" />
+  <title>Simple Marketplace</title>
+  <style>
+    .item { border: 1px solid #ccc; padding: 10px; margin: 10px; width: 200px; display: inline-block; vertical-align: top; }
+    .item img { width: 100%; height: auto; }
+  </style>
 </head>
 <body>
-    <h1>Hello World again!</h1>
+  <h1>Buy and Sell Items of All kinds</h1>
+  <div id="items-list">
+    <div class="item">
+      <img src="Images\Vintage doll.png" alt="Item 1" />
+      <h3>Item 1 Title</h3>
+      <p>Price: £100</p>
+      <p>Lovely doll with pretty touch of the Victorian era.</p>
+      <a href="item1.html">View Details</a>
+    </div>
+    <div class="item">
+      <img src="Images\Headphone1.png" alt="Item 2" />
+      <h3>Item 2 Title</h3>
+      <p>Price: £150</p>
+      <p>Beautiful wireless headphones with excellent sound quality.</p>
+      <a href="item2.html">View Details</a>
+    </div>
+    <!-- More items -->
+  </div>
 </body>
 </html>
